@@ -3,7 +3,7 @@
 
 ## Installation
 
-Add the folling lines to Platformio.ini
+Add the following lines to Platformio.ini
 
 ```text
 lib_deps = 
