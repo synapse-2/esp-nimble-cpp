@@ -15,6 +15,8 @@ lib_deps =
 This is based on the original lib https://github.com/h2zero/esp-nimble-cpp/ 
 Has adds to do advertisements for class of device that is needed for BLE devices
 
+And works with ArduinoIoT libs for Alexa and google integration
+
 > [!IMPORTANT]
 > Version 2 is now released!
 > Check out the [1.x to 2.x Migration Guide](docs/1.x_to2.x_migration_guide.md) and [Release Notes](https://github.com/h2zero/esp-nimble-cpp/releases/latest/)
