@@ -8,6 +8,7 @@ Add the following lines to Platformio.ini
 ```text
 lib_deps = 
 	https://github.com/synapse-2/esp-nimble-cpp.git
+	https://github.com/synapse-2/ESP32_magic_enum.git
 
 ```
 ---
