@@ -1,6 +1,20 @@
 [![Release Version](https://img.shields.io/github/release/h2zero/esp-nimble-cpp.svg?style=plastic)
 ![Release Date](https://img.shields.io/github/release-date/h2zero/esp-nimble-cpp.svg?style=plastic)](https://github.com/h2zero/esp-nimble-cpp/releases/latest/)  
 
+## Installation
+
+Add the folling lines to Platformio.ini
+
+```text
+lib_deps = 
+	https://github.com/synapse-2/esp-nimble-cpp.git
+
+```
+---
+
+This is based on the original lib https://github.com/h2zero/esp-nimble-cpp/ 
+Has adds to do advertisements for class of device that is needed for BLE devices
+
 > [!IMPORTANT]
 > Version 2 is now released!
 > Check out the [1.x to 2.x Migration Guide](docs/1.x_to2.x_migration_guide.md) and [Release Notes](https://github.com/h2zero/esp-nimble-cpp/releases/latest/)
@@ -25,16 +39,6 @@ NimBLE is a completely open source Bluetooth Low Energy stack produced by [Apach
 It is more suited to resource constrained devices than bluedroid and has now been ported to the ESP32 by Espressif.  
 <br/>
 
-# Installation
-
-### ESP-IDF v4.0+
-Download as .zip and extract or clone into the components folder in your esp-idf project.
-
-Run menuconfig, go to `Component config->Bluetooth` enable Bluetooth and in `Bluetooth host` NimBLE.  
-Configure settings in `NimBLE Options`.  
-`#include "NimBLEDevice.h"` in main.cpp.  
-Call `NimBLEDevice::init("");` in `app_main`.  
-<br/>
 
 # Using 
 This library is intended to be compatible with the original ESP32 BLE functions and types with minor changes.  
