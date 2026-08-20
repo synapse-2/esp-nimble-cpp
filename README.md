@@ -1,22 +1,6 @@
 [![Release Version](https://img.shields.io/github/release/h2zero/esp-nimble-cpp.svg?style=plastic)
 ![Release Date](https://img.shields.io/github/release-date/h2zero/esp-nimble-cpp.svg?style=plastic)](https://github.com/h2zero/esp-nimble-cpp/releases/latest/)  
 
-## Installation
-
-Add the following lines to Platformio.ini
-
-```text
-lib_deps = 
-	https://github.com/synapse-2/esp-nimble-cpp.git
-	https://github.com/synapse-2/ESP32_magic_enum.git
-
-```
----
-
-This is based on the original lib https://github.com/h2zero/esp-nimble-cpp/ 
-Has adds to do advertisements for class of device that is needed for BLE devices
-
-And works with ArduinoIoT libs for Alexa and google integration
 
 > [!IMPORTANT]
 > Version 2 is now released!
