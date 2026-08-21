@@ -46,6 +46,19 @@ When using this library along with Arduino and compiling with *CMake* you must a
 in your project/CMakeLists.txt after the line `include($ENV{IDF_PATH}/tools/cmake/project.cmake)` to prevent Arduino from releasing BLE memory.
 <br>
 
+## Installation
+
+Add the folling lines to Platformio.ini
+
+```text
+lib_deps = 
+  https://github.com/synapse-2/esp-nimble-cpp.git
+  https://github.com/synapse-2/ESP32_magic_enum.git
+
+
+```
+---
+
 # Sponsors
 Thank you to all the sponsors who support this project!
 
