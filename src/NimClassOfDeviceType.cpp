@@ -4,8 +4,8 @@
 
 
 #if defined(CONFIG_NIMBLE_USE_MAGIC_ENUM)
-# include "magicEnum/magic_enum.hpp"
-# include "magicEnum/magic_enum_iostream.hpp"
+# include "magic_enum/magic_enum.hpp"
+# include "magic_enum/magic_enum_iostream.hpp"
 
 template <typename E>
 auto to_integer(magic_enum::Enum<E> value) -> int
