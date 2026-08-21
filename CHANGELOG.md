@@ -1,6 +1,17 @@
 # Changelog
 All notable changes to this project will be documented in this file.
 
+## [3.0.0] 2026-08-21
+
+## Added
+- PlatformIO installation instructions and dependency guidance in the README.
+- Documentation for the Arduino/CMake integration requirement when using this library with Arduino.
+- Added Class of device support for BLE all devices now supported
+- Updated the ESP32 makemenu config to use magic enum(optional) so that better logging can be done for class of device support . The support is non breaking if no magic_enum lib is present code will still compile and work.
+- Set the define NIMBLE_USE_MAGIC_ENUM to enable linking with magic_enum lib (https://github.com/Neargye/magic_enum) for detailed logs on class of device else the code executes as old
+- Resolved enum clash when using Arduino IOT (https://github.com/[arduino-libraries/ArduinoIoTCloud](https://github.com/arduino-libraries/ArduinoIoTCloud))
+- Set the define NIMBLE_USING_ARDUINO_IOT to enable enum clash resolution else the code execuutes as old
+
 ## [2.5.0] 2026-04-01
 
 ## Fixed
