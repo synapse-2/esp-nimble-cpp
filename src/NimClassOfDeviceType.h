@@ -7,8 +7,8 @@
 #include <vector>
   
 #if defined(CONFIG_NIMBLE_USE_MAGIC_ENUM)
-# include "magicEnum/magic_enum.hpp"
-# include "magicEnum/magic_enum_iostream.hpp"
+# include "magic_enum/magic_enum.hpp"
+# include "magic_enum/magic_enum_iostream.hpp"
 #endif
 
 #define BLE_HS_ADV_TYPE_CLASS_OF_DEVICE 0x0d

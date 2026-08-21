@@ -32,6 +32,12 @@
 # include <cstdlib>
 # include <cstring>
 
+// updated as READ and WRITE conflict with ArduinoIOT libs
+# if defined(CONFIG_NIMBLE_USING_ARDUINO_IOT)
+#  define WRITE BLE_WRITE
+#  define READ BLE_READ
+# endif
+
 static const char* LOG_TAG = "NimBLEStream";
 
 struct NimBLEStream::ByteRingBuffer {

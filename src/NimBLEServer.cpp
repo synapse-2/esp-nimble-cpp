@@ -98,7 +98,7 @@ NimBLEService* NimBLEServer::createService(const char* uuid) {
 NimBLEService* NimBLEServer::createService(const NimBLEUUID& uuid) {
     NimBLEService* pService = new NimBLEService(uuid);
     m_svcVec.push_back(pService);
-    serviceChanged();
+    setServiceChanged();
 
     // added for debugging by synapse2
     NIMBLE_LOGI(LOG_TAG, "Added serice to GATT table service %s", pService->toString().c_str());
